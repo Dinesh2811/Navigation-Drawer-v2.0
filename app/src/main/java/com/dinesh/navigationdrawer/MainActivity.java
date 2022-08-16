@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-//        startActivity(new Intent(this, Home.class));
-        startActivity(new Intent(this, NavigationDrawer.class));
+//        startActivity(new Intent(this, NavigationDrawer.class));
+        startActivity(new Intent(this, Home.class));
     }
 }

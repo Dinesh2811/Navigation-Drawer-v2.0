@@ -46,12 +46,12 @@ public class NavigationDrawer extends ToolbarMain implements NavigationView.OnNa
 
         navigationView.setNavigationItemSelectedListener(this);
 
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-
-
-        FragmentOne fragmentOne = new FragmentOne();
-        fragmentTransaction.replace(R.id.frameLayoutInflateAdapter,fragmentOne);
-        fragmentTransaction.commit();
+//        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//
+//
+//        FragmentOne fragmentOne = new FragmentOne();
+//        fragmentTransaction.replace(R.id.frameLayoutInflateAdapter,fragmentOne);
+//        fragmentTransaction.commit();
 
 
     }
