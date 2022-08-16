@@ -104,6 +104,13 @@ public class NavigationDrawer extends ToolbarMain implements NavigationView.OnNa
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24);
 
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                Home.super.onNavigationItemSelected(item);
+                return true;
+            }
+        });
 
  */
 
